@@ -1,0 +1,13 @@
+[project]
+name = "yt-summerizer"
+version = "0.1.0"
+description = "Intelligent YouTube video summarizer with batch processing for long videos"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "youtube-transcript-api>=1.2.1",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "langchain-core>=0.1.0",
+]
